@@ -1,0 +1,2 @@
+direction,number,bank,branch,owner,amount,currency,issueDate,dueDate,status,partyCode,projectCode
+Alınan,CHK-4587,Garanti,Merkez,Demo Tedarikçi,75000,TRY,2024-05-01,2024-07-10,Portföyde,CR-0001,SN-PRJ-001

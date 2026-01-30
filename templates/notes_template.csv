@@ -1,0 +1,2 @@
+direction,number,bank,branch,owner,amount,currency,issueDate,dueDate,status,partyCode,projectCode
+Verilen,SNT-3321,İş Bankası,Bakırköy,Demo Tedarikçi,65000,TRY,2024-05-12,2024-08-10,Portföyde,CR-0001,SN-PRJ-001

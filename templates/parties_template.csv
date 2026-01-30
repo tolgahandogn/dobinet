@@ -1,0 +1,2 @@
+code,name,phone,email,taxNo,taxOffice,address,iban,notes,status
+CR-0001,Demo Tedarikçi,0212 123 45 67,demo@tedarikci.com,1234567890,İstanbul,İstanbul,TR000000000000000000000000,Demo,active
