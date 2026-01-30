@@ -1,0 +1,65 @@
+{
+  "name": "santiyenets",
+  "productName": "ŞantiyeNets",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "package": "electron-builder",
+    "test": "vitest run",
+    "lint": "echo 'no lint configured'"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.0",
+    "bcryptjs": "^2.4.3",
+    "zod": "^3.23.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "electron": "^30.0.9",
+    "electron-builder": "^24.13.3",
+    "electron-vite": "^2.1.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1",
+    "vitest": "^1.6.0"
+  },
+  "build": {
+    "appId": "com.santiyenets.app",
+    "productName": "ŞantiyeNets",
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
+    "files": [
+      "dist/**",
+      "migrations/**",
+      "templates/**",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "migrations",
+        "to": "migrations"
+      },
+      {
+        "from": "templates",
+        "to": "templates"
+      }
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+type,date,warehouseCode,projectCode,partyCode,description,materialCode,qty,unitPrice
+giriş,2024-06-10,WH-001,SN-PRJ-001,CR-0001,Beton girişi,STK-001,10,150000
